@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding-top: 56px;
+  background-color: var(--color-secondary);
+}
+:root {
+  --color-primary: #007bff;
+  --color-secondary: #ffffff;
+  --color-accent: #6c757d;
+}
+/* navbar */
+nav {
+  background-color: var(--color-primary);
+}
+.navbar-brand {
+  padding-left: 10px;
+}
+nav a {
+  color: var(--color-secondary);
+}
+.navbar-brand:hover {
+  color: var(--color-accent);
+}
+button.navbar-toggler {
+  outline-style: none;
+}
+span.navbar-toggler-icon {
+  background-image: url(./img/handbarger.png);
+  object-fit: cover;
+}
+.nav-link {
+  justify-content: space-between;
+}
+.nav-link:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  padding-left: 10px;
+}
+/* navbar end */
+
+/* about section */
+.sec1 {
+}
+.section h1,
+h2 {
+  color: var(--color-primary);
+}
+.section p {
+  color: var(--color-accent);
+}
+#skills .fa-3x {
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+#skills h4 {
+  color: var(--color-accent);
+}
+#projects .card {
+  margin-bottom: 30px;
+}
+.pro-img :hover {
+  opacity: var(--color-accent) 9;
+  color: black;
+}
+.card-body {
+  color: var(--color-accent);
+}
+#contact {
+  color: var(--color-accent);
+}
+#contact .form-group {
+  margin-bottom: 20px;
+}
+
+#contact button {
+  background: #007bff;
+  border: none;
+}
+
+#contact button:hover {
+  background: #0056b3;
+}

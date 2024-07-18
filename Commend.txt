@@ -1,0 +1,5 @@
+ml-auto                       = margin left
+class="navbar-toggler"        =change when their content collapses behind a btn
+data-toggle="collapse"        =control Show/hide the collapsiable content
+class="collapse navbar-collapse"=nav links to replace the btn
+https://product-quantity.onrender.com -- add the js
